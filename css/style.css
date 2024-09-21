@@ -177,6 +177,27 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: border-box;
+  animation-name: backgroundan;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes backgroundan{
+
+  0%{
+    background-image: url(../picture/2019-BMW-i8-004-1080.jpg);
+  }
+  25%{
+    background-image: url(../picture/2016-Honda-Accord-Touring-Coupe-002-1080.jpg);
+  }
+  50%{
+    background-image: url(../picture/2019-BMW-i8-004-1080.jpg);
+  }
+  75%{
+    
+    background-image: url(../picture/2016-Honda-Accord-Touring-Coupe-002-1080.jpg);
+  
+  }
 }
 .content h1 {
   color: #0d1f2d;
